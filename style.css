@@ -1,0 +1,254 @@
+
+html{
+    scroll-behavior: smooth;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    background-color:white;
+    font-family:Red Hat Display;
+}
+.header{
+    margin-left: 165px;
+    margin-right: 160px;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+.logo{
+    margin-right: 100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: default;
+    font-size: 20px;
+    z-index: 1;
+}
+.menu a{
+    margin-left:25px;
+    text-decoration: none;
+    color: #7E7F86; 
+    transition: 0.3s ease-in-out;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: right;
+    vertical-align: middle;
+}
+.menu a:hover{
+    color: #21232D;
+}
+.main_block{
+    margin-top: -30px;
+    display: flex;
+}
+.main_block p{
+    margin-bottom: 10px;
+}
+.description_block{
+    margin-left: 165px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top:200px;
+}
+.hello{
+    font-weight: bold;
+    font-size: 24px;
+    color:#666666;
+}
+.name{
+    font-weight: bolder;
+    font-size: 60px;
+    width:500px;
+    color:#25202F;
+}
+.where_work{
+    font-weight: lighter ;
+    font-size: 21px;
+    color:#25202F;
+}
+.lets_talk{
+    margin-top: 54px;
+    border: 0px;
+    color:white;
+    font-size: 24px;
+    width: 200px;
+    height: 60px;
+    background: #8643DC;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, scale 0.07s ease-in-out;
+}
+.lets_talk:hover{
+    background-color: #ffffff;
+    color: #8643DC;
+    border: 1px solid #8643DC;
+}
+.lets_talk:active{
+    scale: 0.95;
+}
+.pictures{
+    margin-left:110px;
+    margin-right: 160px;
+}
+.services_block{
+    margin-top: 70px;
+    margin-left: 165px;
+    margin-right: 160px;
+    height: 100%;
+}
+.service{
+    padding-top: 50px;
+    font-size:18px;
+    color:#8643DC;
+    position: relative;
+    padding-bottom: 10px;
+}
+.service:before {
+    content: ""; 
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 50px; 
+    height: 2px; 
+    background-color: #8643DC; 
+} 
+.about_service{
+    margin-top:15px;
+    font-size: 36px;
+    width:250px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.Column_block{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    width:350px;
+    margin-right:40px;
+}
+.Inf_column{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.pic_colm{
+    position: relative;
+}
+.top-image{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.bottom-image{
+    position: relative;
+    z-index: 0;
+}
+.head_text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.inform{
+    font-family: 'Red Hat Display';
+    width:350px;
+    margin-top: 20px;
+    color: #47444E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.works_block{
+    margin-top:100px;
+    height: 100%;
+    position:relative;
+}
+.section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #BB85FF24 0%, #FFB1DE24 100%);
+    filter: blur(75px);
+    background-size: cover;
+    z-index: -1;
+  }
+.Inform_works{
+    margin-left: 165px;
+    margin-right: 160px;
+    position: relative;
+    z-index: 2;
+}
+.portfolio{
+    padding-top: 50px;
+    font-size:18px;
+    color:#8643DC;
+    position: relative;
+    padding-bottom: 10px;
+}
+.portfolio:before {
+    content: ""; 
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 50px; 
+    height: 2px; 
+    background-color: #8643DC; 
+} 
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects{
+    margin-top:15px;
+    font-size: 36px;
+    width:250px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: auto;
+}
+.explore{
+    margin-left: auto;
+}
+.More{
+    position: relative;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #25202F;
+}
+.More:before{
+    content: ""; 
+    position: absolute;
+    bottom: -2px;
+    left: 0; 
+    width: 145px; 
+    height: 2.5px; 
+    background-color: #25202F;
+}
+.pictures_works_block{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between; 
+}
+.pic_portfolio{
+    border-radius: 10px;
+    filter: drop-shadow(0px 20px 50px rgba(220, 192, 255, 0.3));
+}
